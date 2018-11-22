@@ -46,6 +46,9 @@ class ViewController: UIViewController {
     
     @IBAction func showAlert(){
         
+        
+        // ทางเลือกอื่นๆ ในการเขียนคำสั่ง แต่ได้ผลลัพธ์เดียวกัน
+        
 //        var difference: Int
 //        if currentValue > targetValue{
 //            difference = currentValue - targetValue
@@ -66,7 +69,7 @@ class ViewController: UIViewController {
                         "\nThe target value is: \(targetValue)" +
                         "\nThe differnce is: \(difference)"
         
-        
+        // แสดงค่า message ด้วย UIAlert
         let alert = UIAlertController(title: "Show Hello", message: message, preferredStyle: .alert)
         
         let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
